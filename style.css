@@ -59,6 +59,7 @@ body{
 }
 
  .btn-app:active {
+   
   top: 76%;
   box-shadow: 0 3px 0px #a0a1a2;
   transition: all .2s;
