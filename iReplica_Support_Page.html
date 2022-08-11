@@ -152,31 +152,33 @@
             <div class="fff" id="wf">
                 <div class="top"><h1 class="w">iReplica: Support Page</h1></div>
                 <div class="mid"><h6 class="w">
-                    If you've ever wondered how quickly your brain can process visual information, 
-                    then Eye Speed is just the app for you! Eye Speed provides users with a test to measure their visual reaction times. 
+                    If you've ever wanted to capture a photo that closely resembles what your eyes see, 
+                    then iReplica is just the app for you. iReplica provides users with the ability to both 
+                    capture and save photos in RAW, while also providing two different processing pipelines to 
+                    adjust the image. iReplica is currently in its initial stages, and we are regularly improving 
+                    its mechanics.
                     <br>
                     <br>
-                    The visual test is inspired by work from the 
-                    laboratories of Drs. Alonso and Zaidi. The app was initially written by Vandad Davoodnia as part of a collaboration between the laboratories of Drs. Alonso and Lashgari. 
-                    This new app upgrade was written by Adam Khoukhi in the laboratory of Dr. Alonso. 
+                    The camera application is inspired by work from the laboratory of Dr. Alonso. 
+                    The app is written by Adam Khoukhi, who is supervised by Hamed Nasrabadi, 
+                    both are in the laboratory of Dr. Alonso.
                     <br>
                     <br>
-                    The purpose of this app is to provide eye doctors with a tool for vision research and 
-                    inspire new visual tests to monitor the progression of visual disorders. So not only will you 
-                    be able to measure your reaction time, but also contribute to world-class vision research!
+                    The purpose behind developing this application is to provide vision research in order to better understand how the human eye works. So not only will you 
+                    be able to closely replicate what your eyes see on your phone, but also contribute to world-class vision research!
                     <br>
                     <br>
-                    Eye Speed is available in both the Play Store (Andriod) and the App Store (iOS).
+                    iReplica is currently available only the App Store (iOS).
                     <br><br>
-                    <Strong>*</Strong> Supported on api level 15 and above for andriod (tablet and smartphone)
+                    <Strong>*</Strong> Supported on iOS 15.0 and above for iOS (iPad and iPhone)
                     <br>
-                    <Strong>*</Strong> Supported on iOS 9.0 and above for iOS (iPad and iPhone)
+                    <Strong>*</Strong> iPhone and iPad must have atleast a 12MP back camera to support RAW. (iPhone 6s and above)
                     <br>
-                    <Strong>*</Strong> For mailing trial results on iOS, make sure the Mail App is installed and linked to an account. 
+                    <Strong>*</Strong> For contributing, make sure the Mail App is installed and linked to an account. 
                     <br>
 
                 </h6></div>
-                <div class="bot"><h5 class="w">Scroll down for the Pre-Trial Stage</h5></div>
+                <div class="bot"><h5 class="w">Scroll down for the Capturing Stage</h5></div>
             </div>
             <div class="ddd" id="cd">
                 <img src="Launch.png" class="wi">
@@ -184,28 +186,26 @@
       </div>
       <div class="section" id="b">
             <div class="fff" id="df">
-                <div class="top"><h1 class="bl">Pre Trial</h1></div>
+                <div class="top"><h1 class="bl">Capture Photos</h1></div>
+                <br>
                 <div class="mid"><h6 class="bl">
-                    The Pre-Trial stage is where you can configure the trial's settings to your liking. You may 
-                    adjust the Noise Square Width, Target Width, and Black area to the total area ratio in order to 
-                    modify the difficulty. Please note that all three settings have bounds, if you set a value outside 
-                    the bounds then you will receive a warning, and the settings will reset to the default values.
+                    The Capture Photos stage is, simply, where you will capture the photo. iReplica captures photos in RAW.
                     <br>
                     <br>
-                    <Strong>Noise square width? </Strong> The pixel width of each square forming the background noise.
-                    <p></p>
-                    <Strong>Target width? </Strong> The pixel width of each target square that the user must count to respond. 
-                    <p></p>
-                    <Strong>Black area to total area ratio? </Strong> The percentage of dark pixels forming the background noise. The background has an equal number of light and dark pixels when the ratio is set at 50% (50% dark and 50% light background pixels). 
-                    <p></p>
-                    <Strong>Number of trials? </Strong> The number of trials during a trial session. A minimum number of trials (200) is required to obtain reliable data and minimize measurement noise. However, the user can finish the test at any time.
+                    What is RAW? A RAW file is simply a digital negative image file that is minimally processed 
+                    and is usually uncompressed. When capturing with RAW, the user captures all image data 
+                    recorded by the sensor. So why capture in RAW? There isn’t really a downside to capturing in 
+                    RAW, except a larger file size. When capturing in RAW, you get the highest level of quality, easily 
+                    adjust exposure, brightness, and white balance, and you get much better detail.       
                     <br>
                     <br>
-                    When satisfied with the configuration, press Next to start the trial test!
-
-
+                    Currently the application does not have any features in the viewfinder. We are, 
+                    however, working on implementing new features such as: Adjusting the exposure, 
+                    the ISO, the shutter speed, and calibrating the white balance. If you have any suggestions on other features we should include, 
+                    please let us know by contacting us through the email at the end of the page!
+                    We are planning on pushing an update every two weeks, so stay tuned!
                 </h6></div>
-                <div class="bot"><h5 class="bl">Scroll for down for Trial Stage</h5></div>
+                <div class="bot"><h5 class="bl">Scroll for down for the "Under the Hood" processing</h5></div>
             </div>
             <div class="ddd" id="cd">
                 <img src="Pre_trial.png" class="bi">
@@ -213,24 +213,33 @@
       </div>
       <div class="section" id="c">
             <div class="fff" id="wf">
-                <div class="top"><h1 class="w">Trial</h1></div>
+                <div class="top"><h1 class="w">"Under the Hood" processing</h1></div>
                 <div class="mid"><h6 class="w">
                     <br>
-                    The trial stage is the bulk of the application. When ready, you may start the test by pressing the tab 'Start Trial' at the bottom. 
+                    Once you capture a photo, we can start the processing process. Since the photo is captured in RAW,
+                     we must first read and process the unprocessed sensor data in order to display an image. If you would 
+                     like the RAW data yourself, no worries, you can save the RAW photo alone or with the processed image.
                     <br>
                     <br>
-                    After the tab is pressed, a visual stimulus will appear on the screen. The visual stimulus is composed of black and white squares embedded in a 
-                    noisy background. You must count the number of Target squares as fast as you can and press the tab with the correct number: |1| |2| |3|. Once a tab is 
-                    pressed, another stimulus appears. 
+                    Unfortunately, processing the RAW sensor data does take some time (We are working on making it faster). 
+                    This processing is done,  under the hood, while the screen has a loading page. 
+                    The processing is minimal and consists of reading the unprocessed sensor data, 
+                    applying black level so the image doesn’t look saturated, applying the white balance 
+                    so that white looks white, demosicasing the bayer pattern, and lastly applying a color 
+                    space conversion.
                     <br>
                     <br>
-                    This sequence is repeated until the number of trails set is met. A minimum number of trials (5) is required to obtain 
-                    reliable data and contribute to the research. However, you may finish the test at any time by pressing the tab 'End Trial'. 
+                    Once the processing is complete, a view will appear similar to the one you see here. This means the processing is done, 
+                    and you now have the choice to further process the captured image in 2 methods. You can always return and process with 
+                    the other method, your progress will be saved. The standard method is what is commonly used, a gamma correction. 
+                    In this method, you will be able to process the image by adjusting its gamma correction, and contrast. The other method, 
+                    ONOFF, is our custom method that involves adjusting a weight and alpha. This method is closely related to what our eyes see, and was based on biological functions of sight. For further information on that, please refer to 
+                    the article <a href="https://www.sciencedirect.com/science/article/pii/S221112472100005X ">Click here</a>. 
                     <br>
                     <br>
                     <br>
                 </h6></div>
-                <div class="bot"><h5 class="w">Scroll down for the Post-Trial Stage</h5></div>
+                <div class="bot"><h5 class="w">Scroll down for the User's processing</h5></div>
             </div>
             <div class="ddd" id="cd">
                 <img src="Trial.png" class="wi">
@@ -238,25 +247,27 @@
     </div>
     <div class="section" id="d">
             <div class="fff" id="df">
-                <div class="top"><h1 class="bl">Post Trial</h1></div>
+                <div class="top"><h1 class="bl">Your turn to process</h1></div>
                 <div class="mid"><h6 class="bl">
                     <br>
-                    The post-trial is the final stage of the application. Here, you can see how well you did during the test. 
-                    Under the “Results” label, you can see the average reaction time (e.g. 'Mean White RT: 0.586 seconds', 
-                    'Mean Black RT: 0.492 seconds) and the accuracy of the visual performance (e.g. 'White percent of correct answers: 
-                    81.25%', 'Black percent of correct answers: 50.00%'). 
+                    Now it’s your turn to process the image. 
+                    Depending on the method you chose, you will have a few adjustments to 
+                    choose from. Simply click on the adjustment icon on the bottom right and 
+                    select the adjustment you want to tweak. Once you select one, a slider will pop up. 
+                    You can always click on reset if you would like to remove all editing done. If you would 
+                    like to change the method of processing, simply click on the return button on the top left, 
+                    your progress will be saved. 
                     <br>
                     <br>
-                    If you completed 5 or more trials, then there is an option to mail the data to our laboratory and to the user's 
-                    email address. The data is mailed in the form of a data sheet (.csv file) that contains information about the data 
-                    collected (e.g., reaction times and correct responses for the individual trials) and information about the variables 
-                    selected for the test (the configuration done in the Pre-Trial). Please check our privacy policy for any concerns on 
-                    data collection and processing.  
+                    Once you're done editing, you can now save the photo to your Photos by clicking the save button on the top right corner. 
+                    There, you will have 3 saving choices; click on the RAW if you would like to only save the captured photo in RAW. This will save a DNG file, 
+                    about 12 mb in size, in your Photos. The preview that you see for the RAW is simply a jpg preview. Click on the Processed if you would like to only save the your processing of the captured photo. 
+                    This will save a png file that looks identical to the image displayed in your screen. If you would like to save both, the click on RAW+Processed (Note: this will save two seperate files).
                     <br>
                     <br>
-                    After the data is mailed, the app provides a performance score based on the speed and accuracy of the count. 
-                    The score ranges from 0 to 100 (100 being the best performance). Thank you for downloading our app and contributing 
-                    to our research! 
+                    After your photos are saved, you will be prompted with a success alert and asked if you would like to contribute to our research (The contribution does NOT involve the content of your photo, 
+                    nor any information relating to your identity. More information on that in our <a href="iReplica_Privacy_Policy.html">Privacy Policy</a>). The contribution is done by sending us an email that 
+                    has a csv datasheet of your adjustments and a few device specific information. It only takes a few seconds. Thank you for choosing our app and contributing to our research!
                     <br>
                     <br>
                     <br>
