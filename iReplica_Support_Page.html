@@ -46,11 +46,11 @@
         }
         .mid{
             width: 100%;
-            height: 83%;
+            height: 82%;
         }
         .bot{
             width: 100%;
-            height: 7%;
+            height: 8%;
             margin-bottom: 5%;
         }
         h1{
@@ -180,7 +180,7 @@
                 <div class="bot"><h5 class="w">Scroll down for the Capturing Stage</h5></div>
             </div>
             <div class="ddd" id="cd">
-                <img src="iReplica_Launch.PNG" class="wi">
+                <img src="iPhone_launch.PNG" class="wi">
             </div>  
       </div>
       <div class="section" id="b">
@@ -195,67 +195,76 @@
                     and is usually uncompressed. When capturing with RAW, the user captures all image data 
                     recorded by the sensor. So why capture in RAW? There isn’t really a downside to capturing in 
                     RAW, except a larger file size. When capturing in RAW, you get the highest level of quality, easily 
-                    adjust exposure, brightness, and white balance, and you get much better detail.       
+                    adjust exposure, brightness, and white balance, and you get much better detail.    
                     <br>
                     <br>
-                    Currently, the application does not have any features in the viewfinder. We are, 
-                    however, working on implementing new features such as: Adjusting the exposure, 
-                    the ISO, the shutter speed, and calibrating the white balance. If you have any suggestions on other features we should include, 
+                    Under the viewfinder display is the capture adjustment segment selector. By simply clicking, or swiping to the selected segment, 
+                    the user can adjust the exposure of the photo before it is captured through the slider. The leftmost segment, ISO, represents the ISO. The middle segment 
+                    represents the Exposure Bias (in steps). The rightmost segment, SS, represents the shutter speed. Whenever the user adjusts the ISO or the Shutter speed, 
+                    the exposure mode is set to manual. Simply changing the selected segment to Exposure resets the mode to auto. The minimum and maximum are device-dependent. 
+                    It is recommended to have a lower ISO when manually adjusting in order to reduce noise. 
+                    <br>
+                    <br>
+                    If you have any suggestions on other features we should include, 
                     please let us know by contacting us through the email at the end of the page!
                     We are planning on pushing an update every two weeks, so stay tuned!
                 </h6></div>
-                <div class="bot"><h5 class="bl">Scroll for down for the "Under the Hood" processing</h5></div>
+                <div class="bot"><h5 class="bl">Scroll for down for the "Under the Hood" & Standard Processing</h5></div>
             </div>
             <div class="ddd" id="cd">
-                <img src="iReplica_Capture.PNG" class="bi">
+                <img src="iPhone_capture.PNG" class="bi">
             </div>
       </div>
       <div class="section" id="c">
             <div class="fff" id="wf">
-                <div class="top"><h1 class="w">"Under the Hood" processing</h1></div>
+                <div class="top"><h1 class="w">"Under the Hood" & Standard Processing </h1></div>
                 <div class="mid"><h6 class="w">
                     <br>
-                    Once you capture a photo, we can start the processing process. Since the photo is captured in RAW,
-                     we must first read and process the unprocessed sensor data in order to display an image. If you would 
-                     like the RAW data yourself, no worries, you can save the RAW photo alone or with the processed image.
-                    <br>
-                    <br>
-                    Unfortunately, processing the RAW sensor data does take some time (We are working on making it faster). 
-                    This processing is done,  under the hood, while the screen has a loading page. 
-                    The processing is minimal and consists of reading the unprocessed sensor data, 
-                    applying black level so the image doesn’t look saturated, applying the white balance 
-                    so that white looks white, demosaicing the Bayer pattern, and lastly applying a color 
-                    space conversion.
+                    Once you capture a photo, the application starts processing the RAW sensor data. 
+                    Since the photo is captured in RAW, we must first read and process the unprocessed sensor 
+                    data in order to display an image. If you would like the RAW data yourself, no worries, 
+                    you can save the RAW photo alone or with the processed image. Processing the RAW sensor 
+                    data does take some time and is done under the hood. While the screen has a loading page, 
+                    the application first reads the unprocessed sensor data. It then applies black level so the image doesn’t 
+                    look saturated, and applies white balance so that white looks white and not green or yellow. Once the color is correct, 
+                    the application demosaics the Bayer pattern, and lastly applies the appropriate color space conversion. 
+                    For more information on this process, please contact us through the email provided at the last slide. 
                     <br>
                     <br>
                     Once the processing is complete, a view will appear similar to the one you see here. This means the processing is done, 
-                    and you now have the choice to further process the captured image in 2 methods. You can always return and process with 
-                    the other method, your progress will be saved. The standard method is what is commonly used, a gamma correction. 
-                    In this method, you will be able to process the image by adjusting its gamma correction, and contrast. The other method, 
-                    ONOFF, is our custom method that involves adjusting weight and alpha. This method is closely related to what our eyes see, and was based on the biological functions of sight. For further information on that, please refer to 
-                    the article <a href="https://www.sciencedirect.com/science/article/pii/S221112472100005X ">Click here</a>. 
+                    and you now have the choice to further process the captured image in 2 methods as displayed in the top part of the image. 
+                    You may switch the processing method by simply clicking or swiping to the desired method in the segment selector. You can 
+                    always switch back to a different method, your progress will be saved (two copies of the image, one for each method). 
+                    You can always click on the reset button in the bottom left of the image if you would like to remove all editing done on 
+                    the selected method.
+                    <br>
+                    <br>
+                    Currently selected is the standard method. This method applies what is commonly applied, 
+                    a gamma correction. In this method, you will be able to process the image by adjusting its gamma correction, 
+                    contrast, and brightness. A gamma correction in the range of 2.2 to 2.6 usually produces the best results. We are 
+                    improving the effects of the adjustments so stay tuned for better-looking results. 
                     <br>
                     <br>
                     <br>
                 </h6></div>
-                <div class="bot"><h5 class="w">Scroll down for the User's processing</h5></div>
+                <div class="bot"><h5 class="w">Scroll down for the ONOFF Processing & Saving/Sending</h5></div>
             </div>
             <div class="ddd" id="cd">
-                <img src="iReplica_Captured.PNG" class="wi">
+                <img src="iPhone_standard.PNG" class="wi">
         </div>
     </div>
     <div class="section" id="d">
             <div class="fff" id="df">
-                <div class="top"><h1 class="bl">Your turn to process</h1></div>
+                <div class="top"><h1 class="bl">ONOFF Processing, Saving, & Contributions </h1></div>
                 <div class="mid"><h6 class="bl">
                     <br>
-                    Now it’s your turn to process the image. 
-                    Depending on the method you chose, you will have a few adjustments to 
-                    choose from. Simply click on the adjustment icon on the bottom right and 
-                    select the adjustment you want to tweak. Once you select one, a slider will pop up. 
-                    You can always click on reset if you would like to remove all editing done. If you would 
-                    like to change the method of processing, simply click on the return button on the top left, 
-                    and your progress will be saved. 
+                    The other method, ONOFF, is our custom method that involves adjusting a weight, 
+                    alpha value, and a beta value. This method is closely related to what our eyes see, 
+                    and was based on the biological functions of sight. The best-resulting values vary heavily
+                     based on the image so a little more tweaking is necessary for this method. Start by sliding the 
+                     weight to an appropriate brightness, then the alpha value. Lastly the beta value (the higher the beta 
+                     value, the less saturated the image is). For further information on that, please refer to the article 
+                     <a href="https://www.sciencedirect.com/science/article/pii/S221112472100005X ">Click here</a>.
                     <br>
                     <br>
                     Once you're done editing, you can now save the photo to your Photos by clicking the save button on the top right corner. 
@@ -274,7 +283,7 @@
                 <div class="bot"><h5 class="bl">Still have questions? Contact Us at <strong>josemalonso10@hotmail.com</strong></h5></div>
             </div>
             <div class="ddd" id="cd">
-                <img src="iReplica_Edit.PNG" class="bi">
+                <img src="iPhone_onoff.PNG" class="bi">
             </div>
     </div>
     
