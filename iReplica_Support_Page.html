@@ -254,19 +254,21 @@
                 <div class="top"><h1 class="bl">ONOFF Processing, Saving, & Contributions </h1></div>
                 <div class="mid"><h6 class="bl">
                     <br>
-                    The other method, ONOFF, is our custom method that involves adjusting a weight, 
-                    alpha value, and a beta value. This method is closely related to what our eyes see, 
-                    and was based on the biological functions of sight. The best-resulting values vary heavily
-                     based on the image so a little more tweaking is necessary for this method. Start by sliding the 
-                     weight to an appropriate brightness, then the alpha value. Lastly the beta value (the higher the beta 
-                     value, the less saturated the image is). For further information on that, please refer to the article 
+                    The other method, ONOFF, is our custom method that is based on how our eyes biologically process what we see. The 
+                    best-resulting values vary heavily based on the image so a little more tweaking is necessary for this method. 
+                    BG is the percentile value describing the ON and OFF backgrounds. The percentile is based on the image's maximum 
+                    luminance. Next,  nON maps the ON luminance values with a non-linear gamma function to the power of 1 over the value 
+                    selected. On the other hand, nOFF maps the OFF luminance values with a non-linear gamma function to the power of the 
+                    value selected. ω specifies the relative ON and OFF response strength. Lastly, S maps the upper S percentile of the 
+                    ON luminance values with a non-linear gamma function to power between nON & nOFF. For further information on that, 
+                    please refer to the article  
                      <a href="https://www.sciencedirect.com/science/article/pii/S221112472100005X ">Click here</a>.
                     <br>
                     <br>
                     Once you're done editing, you can now save the photo to your Photos by clicking the save button on the top right corner. 
-                    There, you will have 3 saving choices; click on the RAW if you would like to only save the captured photo in RAW. This will save a DNG file, 
+                    There, you will have 3 saving choices; save only the captured RAW photo in RAW; this will save a DNG file, 
                     about 12 MB in size, in your Photos. The preview that you see for the RAW is simply a jpg preview. Click on the Processed if you would like to only save your processing of the captured photo. 
-                    This will save a png file that looks identical to the image displayed on your screen. If you would like to save both, then click on RAW+Processed (Note: this will save two separate files).
+                    This will save a png file that looks identical to the image displayed on your screen. If you would like to save both, then click on RAW+Processed.
                     <br>
                     <br>
                     After your photos are saved, you will be prompted with a success alert and asked if you would like to contribute to our research (The contribution does NOT involve the content of your photo, 
