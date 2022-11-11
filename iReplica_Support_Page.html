@@ -198,15 +198,14 @@
                     <br>
                     <br>
                     Under the viewfinder display is the capture adjustment segment selector. By simply clicking, or swiping to the selected segment, 
-                    the user can adjust the exposure of the photo before it is captured through the slider. The leftmost segment, ISO, represents the ISO. The middle segment 
-                    represents the Exposure Bias (in steps). The rightmost segment, SS, represents the shutter speed. Whenever the user adjusts the ISO or the Shutter speed, 
-                    the exposure mode is set to manual. Simply changing the selected segment to Exposure resets the mode to auto. The minimum and maximum are device-dependent. 
-                    It is recommended to have a lower ISO when manually adjusting in order to reduce noise. 
+                    the user can adjust the exposure steps to be used when capturing the photos. Select the correct segment depending on whether you 
+                    are indoors or outdoors. This selection will help us better understand the ambient light in your environment, which will prompt 
+                    you with a slider to adjust the photo’s exposure. The application uses HDR (High Dynamic Range) and captures 4 of the same image with different exposures, 
+                    3 of which will be relative to the captured photo with the selected shutter speed.
                     <br>
                     <br>
                     If you have any suggestions on other features we should include, 
                     please let us know by contacting us through the email at the end of the page!
-                    We are planning on pushing an update every two weeks, so stay tuned!
                 </h6></div>
                 <div class="bot"><h5 class="bl">Scroll for down for the "Under the Hood" & Standard Processing</h5></div>
             </div>
@@ -220,27 +219,26 @@
                 <div class="mid"><h6 class="w">
                     <br>
                     Once you capture a photo, the application starts processing the RAW sensor data. 
-                    Since the photo is captured in RAW, we must first read and process the unprocessed sensor 
-                    data in order to display an image. If you would like the RAW data yourself, no worries, 
-                    you can save the RAW photo alone or with the processed image. Processing the RAW sensor 
-                    data does take some time and is done under the hood. While the screen has a loading page, 
+                    If you would like the RAW data yourself, no worries, you can save the RAW photo alone or with the processed image. While the screen has a loading page, 
                     the application first reads the unprocessed sensor data. It then applies black level so the image doesn’t 
                     look saturated, and applies white balance so that white looks white and not green or yellow. Once the color is correct, 
-                    the application demosaics the Bayer pattern, and lastly applies the appropriate color space conversion. 
+                    the application demosaics the Bayer pattern and applies the appropriate color space conversion. Lastly, HDR is 
+                    implemented in order to get the best the best detail possible in the photo's light and dark areas.
                     <br>
                     <br>
                     Once the processing is complete, a view will appear similar to the one you see here. This means the processing is done, 
                     and you now have the choice to further process the captured image in 2 methods as displayed in the top part of the image. 
                     You may switch the processing method by simply clicking or swiping to the desired method in the segment selector. You can 
                     always switch back to a different method, your progress will be saved (two copies of the image, one for each method). 
-                    You can always click on the reset button in the bottom left of the image if you would like to remove all editing done on 
+                    You can also click on the reset button in the bottom left of the image if you would like to remove all editing done on 
                     the selected method.
                     <br>
                     <br>
-                    Currently selected is the standard method. This method applies what is commonly applied, 
-                    a gamma correction. In this method, you will be able to process the image by adjusting its gamma correction, 
-                    contrast, and brightness. A gamma correction in the range of 2.2 to 2.6 usually produces the best results. We are 
-                    improving the effects of the adjustments so stay tuned for better-looking results. 
+                    Currently selected is the standard method. This method applies what is commonly applied, a gamma correction. In this method, 
+                    you will be able to process the image by adjusting its gamma correction, saturation, and lightness. The saturation and lightness 
+                    are from the HSL model. Saturation is a percentage value that describes the intensity of the color. Gamma, also known as Gamma 
+                    correction, is a nonlinear operation on the luminance: (1.8-2.2 is the ideal range). Lastly, lightness is a percentage value 
+                    that describes how much light you want to give the color.
                     <br>
                     <br>
                     <br>
